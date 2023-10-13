@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Playground</string>
+
+    <string-array name="cities">
+        <item> Select City </item>
+        <item> Chandigarh </item>
+        <item> Varanasi </item>
+        <item> Himachal </item>
+    </string-array>
+
+</resources>

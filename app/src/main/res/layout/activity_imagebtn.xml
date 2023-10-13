@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Imagebtn"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_design"
+        android:src="@drawable/baseline_email_24"
+        android:padding="27dp"/>
+
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:numStars="3"
+        android:rating="2.5"
+        android:background="@drawable/btn_design"
+        android:padding="2dp"/>
+
+
+    <Button
+        android:layout_marginTop="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:text="Month"
+        android:onClick="getMonth"/>
+
+    <TextView
+        android:layout_marginTop="32dp"
+        android:textSize="32sp"
+        android:hint="Email..."
+        android:drawableLeft="@drawable/baseline_email_24"
+        android:drawablePadding="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv"/>
+
+</LinearLayout>
